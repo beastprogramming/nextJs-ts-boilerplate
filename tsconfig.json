@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@noob/components/*": [
+        "src/components/*"
+      ],
+      "@noob/components": [
+        "src/components"
+      ],
+      "@noob/layouts/*": [
+        "src/layouts/*"
+      ],
+      "@noob/layouts": [
+        "src/layouts"
+      ],
+      "@noob/helpers": [
+        "src/helpers"
+      ],
+      "@noob/helpers/*": [
+        "src/helpers/*"
+      ],
+      "@noob/types/*": [
+        "src/types/*"
+      ],
+      "@noob/types": [
+        "src/types"
+      ],
+      "@noob/public/*": [
+        "public/*"
+      ],
+      "@noob/public": [
+        "public"
+      ],
+      "@noob/i18n": [
+        "./i18n.json"
+      ],
+      "@noob/test/*": [
+        "test/*"
+      ],
+      "@noob/test": [
+        "test"
+      ]
+    },
+    "incremental": true
+  },
+  "include": [
+    "*.js",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
